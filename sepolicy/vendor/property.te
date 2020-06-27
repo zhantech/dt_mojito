@@ -6,3 +6,6 @@ type vendor_device_prop, property_type;
 
 # Thermal
 type thermal_normal_prop, property_type;
+
+# IR
+type lirc_prop, property_type;
