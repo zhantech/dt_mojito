@@ -767,4 +767,10 @@
     <integer name="config_wakeUpDelayDoze">32</integer>
     
     <bool name="config_intrusiveBatteryLed">true</bool>
+    
+    <!-- Adaptive charge sysfs node and value for suspend/resume charging-->
+    <bool name="config_adaptiveChargingAvailable">true</bool>
+    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 </resources>
