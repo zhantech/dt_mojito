@@ -379,6 +379,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.mojito.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mojito.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # RIL
 PRODUCT_PACKAGES += \
     libjson \
