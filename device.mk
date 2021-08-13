@@ -394,6 +394,10 @@ PRODUCT_PACKAGES += \
     librilutils \
     librmnetctl
 
+# Rootdir
+PRODUCT_PACKAGES +=\
+    init.performance_level.rc
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
