@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/derp_mojito.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_mojito-userdebug \
+    derp_mojito-user \
+    derp_mojito-eng
