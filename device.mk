@@ -66,6 +66,12 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Bloatware
+PRODUCT_PACKAGES += \
+    GCam \
+    GalleryGo \
+    RemovePackages
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
