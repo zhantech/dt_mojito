@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     GalleryGo \
     RemovePackages
 
+# Cutout Ring
+PRODUCT_PACKAGES += \
+    CutoutRingServiceMojito
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
