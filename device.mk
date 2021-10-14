@@ -59,8 +59,8 @@ PRODUCT_PACKAGES += \
     RemovePackages
 
 # Cutout Ring
-PRODUCT_PACKAGES += \
-    CutoutRingServiceMojito
+# PRODUCT_PACKAGES += \
+#     CutoutRingServiceMojito
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
