@@ -35,3 +35,10 @@ WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 endif
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="mojito" \
+    PRODUCT_NAME="mojito" \
+    PRIVATE_BUILD_DESC="coral-user 11 RQ3A.211001.001 7641976 release-keys"
+
+BUILD_FINGERPRINT :="google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys"
